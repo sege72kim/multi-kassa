@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/multi-kassa/static/css/main.e3d4db51.css",
-    "main.js": "/multi-kassa/static/js/main.64424d86.js",
+    "main.js": "/multi-kassa/static/js/main.e9b28236.js",
     "static/js/453.f84c8411.chunk.js": "/multi-kassa/static/js/453.f84c8411.chunk.js",
     "static/media/TTFirsNeue-MediumItalic.eot": "/multi-kassa/static/media/TTFirsNeue-MediumItalic.55200e9468de31dbed69.eot",
     "static/media/TTFirsNeue-DemiBoldItalic.eot": "/multi-kassa/static/media/TTFirsNeue-DemiBoldItalic.19e37b0fee060c6ca3c6.eot",
@@ -77,11 +77,11 @@
     "static/media/TTFirsNeue-Regular.woff2": "/multi-kassa/static/media/TTFirsNeue-Regular.aa35bc5e7e663660cc20.woff2",
     "index.html": "/multi-kassa/index.html",
     "main.e3d4db51.css.map": "/multi-kassa/static/css/main.e3d4db51.css.map",
-    "main.64424d86.js.map": "/multi-kassa/static/js/main.64424d86.js.map",
+    "main.e9b28236.js.map": "/multi-kassa/static/js/main.e9b28236.js.map",
     "453.f84c8411.chunk.js.map": "/multi-kassa/static/js/453.f84c8411.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3d4db51.css",
-    "static/js/main.64424d86.js"
+    "static/js/main.e9b28236.js"
   ]
 }
