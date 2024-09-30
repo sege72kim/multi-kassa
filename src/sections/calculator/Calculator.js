@@ -5,7 +5,7 @@ const Calculator = () => {
   return (
     <section className="calculator_section">
       <div className="coins">
-        <img src={`./icons/coins.svg}`} alt="" />
+        <img src={`/icons/coins.svg}`} alt="" />
       </div>
       <h1>Калькулятор доходности</h1>
       <div className="calculator_blocks">
