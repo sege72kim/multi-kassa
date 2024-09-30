@@ -1,0 +1,35 @@
+header {
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  height: 40px;
+  margin-top: 34px;
+}
+nav ul {
+  display: flex;
+  column-gap: 20px;
+}
+nav li {
+  color: #9f9f9e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+nav li:hover {
+  transform: scale(0.95);
+}
+.header_social {
+  display: flex;
+  column-gap: 20px;
+}
+.header_social div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d7b27b;
+  border-radius: 50%;
+  cursor: pointer;
+}

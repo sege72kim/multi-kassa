@@ -1,0 +1,67 @@
+.calculator_section {
+  position: relative;
+  z-index: 1;
+  padding-top: 71px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 400px;
+}
+.coins {
+  width: 58px;
+  height: 58px;
+  border-radius: 15px;
+  background-color: #ede8da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator_section h1 {
+  margin-top: 10px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.calculator_blocks {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 38px;
+  justify-content: center;
+  align-items: center;
+  height: 440px;
+}
+.calculator {
+  background-color: #ede8da;
+  border-radius: 20px;
+  width: 858px;
+  height: 100%;
+  display: flex;
+  column-gap: 10px;
+}
+.calculator_main {
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px;
+  margin-right: 0;
+}
+.calculator_info {
+  width: 50%;
+  margin: 20px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.calculator_info div {
+  height: 20%;
+  background-color: white;
+  border-radius: 10px;
+}
+.calculator_aside {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  width: 412px;
+  height: 100%;
+}
