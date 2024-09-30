@@ -4,7 +4,7 @@ import "./styles.css";
 const Header = () => {
   return (
     <header>
-      <img className="header_logo" src={`./icons/logo.svg}`} alt="MultiKassa" />
+      <img className="header_logo" src={`/icons/logo.svg}`} alt="MultiKassa" />
       <nav>
         <ul>
           <li>Калькулятор</li>
@@ -15,10 +15,10 @@ const Header = () => {
       </nav>
       <div className="header_social">
         <div>
-          <img src={`./icons/tg.svg}`} alt="tg" />
+          <img src={`/icons/tg.svg}`} alt="tg" />
         </div>
         <div>
-          <img src={`./icons/wt.svg}`} alt="tg" />
+          <img src={`/icons/wt.svg}`} alt="tg" />
         </div>
       </div>
     </header>
