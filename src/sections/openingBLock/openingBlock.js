@@ -9,7 +9,7 @@ const OpeningBlock = () => {
           Откройте свой криптообменный пункт <span>в Вашем городе!</span>
         </h1>
         <div className="opening_block_info_set">
-          <img src="/images/book1.jpg" alt="" />
+          <img src={`${process.env.PUBLIC_URL / images / book1.jpg}`} alt="" />
           <a>
             Оставьте заявку и получите гайд{" "}
             <span>о видах мошенничества в обмене криптовалют</span>
@@ -24,39 +24,66 @@ const OpeningBlock = () => {
       <div className="opening_block_picture">
         <div className="opening_block_animation">
           <div className="round" />
-          <img src="/images/tmp.png" alt="" />
+          <img src={`${process.env.PUBLIC_URL / images / tmp.png}`} alt="" />
         </div>
         <div className="opening_block_picture_info">
           <div className="blur" />
           <div className="timeline">
-            <img src="/icons/timeline.svg" alt="" />
+            <img
+              src={`${process.env.PUBLIC_URL / icons / timeline.svg}`}
+              alt=""
+            />
             <div className="timeline_info">
               <div>
                 <div className="timeline_checkbox">
-                  <img src="/icons/check.svg" alt="" />
+                  <img
+                    src={`${process.env.PUBLIC_URL / icons / check.svg}`}
+                    alt=""
+                  />
                 </div>
                 <p>Полноценное обучение</p>
               </div>
               <div>
                 <div className="timeline_checkbox">
-                  <img src="/icons/check.svg" alt="" />
+                  <img
+                    src={`${process.env.PUBLIC_URL / icons / check.svg}`}
+                    alt=""
+                  />
                 </div>
                 <p className="middle_timeline">Доступ к мониторингам</p>
                 <div className="monitoring">
                   <div>
-                    <img src="/icons/monitoring1.svg" alt="" />
+                    <img
+                      src={`${
+                        process.env.PUBLIC_URL / icons / monitoring1.svg
+                      }`}
+                      alt=""
+                    />
                   </div>
                   <div>
-                    <img src="/icons/monitoring2.svg" alt="" />
+                    <img
+                      src={`${
+                        process.env.PUBLIC_URL / icons / monitoring2.svg
+                      }`}
+                      alt=""
+                    />
                   </div>
                   <div>
-                    <img src="/icons/monitoring3.svg" alt="" />
+                    <img
+                      src={`${
+                        process.env.PUBLIC_URL / icons / monitoring3.svg
+                      }`}
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
               <div>
                 <div className="timeline_checkbox">
-                  <img src="/icons/check.svg" alt="" />
+                  <img
+                    src={`${process.env.PUBLIC_URL / icons / check.svg}`}
+                    alt=""
+                  />
                 </div>
                 <p>Собственная CRM система</p>
               </div>
